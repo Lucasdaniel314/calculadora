@@ -5,10 +5,10 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
 
-        println("digite a equacao:");
+        println("digite a expressão aritmética:");
         String eqc = sc.nextLine();
         double result = Calculadora.calcular(eqc);
-        print(String.format("o resultado da equacao é %.2f", result));
+        print(String.format("o resultado da expressão aritmética é %.2f", result));
 
         sc.close();
     }
