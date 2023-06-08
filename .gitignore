@@ -2,6 +2,7 @@
 ## Java
 ##############################
 .mtj.tmp/
+src/testes/
 *.class
 *.jar
 *.war
